@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and registration</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body class="big-class">
+    
+    <div >
+        <div class="button" >
+            <button type="button" class="toggle-btn" onclick="login()">Login</button>
+            <button type="button" class="toggle-btn" onclick="register()">Registration</button>
+        </div>
+        <div>
+        <form id="login" class="input-group">
+            
+            <input type="text" placeholder="user ID" class="input-feild" required>
+            <input type="text" placeholder="password" class="input-feild" required>
+            <button type="submit" class="submit-btn">login</button>
+        </form>
+        </div>
+        <div>
+        <form id="register" class="input-group">
+        <input type="text" placeholder="user ID" class="input-feild" required>
+        <input type="text" placeholder="password" class="input-feild" required>
+        <input tytpe="email" placeholder="enter gmail" class="input-feild" required>
+        <button type="submit" class="submit-btn">Registration</button>
+        </form>
+        </div>
+    </div>
+    <script>
+        var login_frm = document.getElementById("login");
+        var register_frm = document.getElementById("register");
+
+        function register(){
+            login_frm.style.left = "-400px";
+            register_frm.style.left = "100px";
+        }
+        function login(){
+            login_frm.style.left = "100px";
+            register_frm.style.left = "-500px";
+        }
+    </script>
+</body>
+</html>

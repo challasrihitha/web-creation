@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.big-class{
+    background-color: rgb(8, 190, 181);
+    
+}
+
+
+.toggle-btn{
+    padding: 10px 30px;
+    border: 2px;
+    color: cadetblue;
+    margin-left: 80px;
+    margin-top: 40px;
+    
+}
+.toggle-btn:hover{
+    color: blue;
+}
+.input-group{
+    margin-top: 50px;
+    width: 100px;
+    position:absolute;
+    transition: .5s;
+    margin-left: 80px;
+}
+.submit-btn{
+    width:85%;
+    padding: 20px 100px;
+    display: block;
+    color: darkblue;
+    cursor: pointer;
+    margin :auto;
+    border: 2px solid orange;
+    border-radius: 30px;
+    
+
+}
+.submit-btn:hover{
+    background-color: green;
+}
+.input-feild{
+    padding: 10px 30px;
+    border: 2px solid red;
+    outline: none;
+}
+#login{
+    left: 50px;
+    float: left;
+}
+#register{
+    left: 450px;
+    float: left;
+}
+
